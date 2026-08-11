@@ -6,7 +6,7 @@ Triết lý cốt lõi của Docker là **"Build once, run anywhere"** — ứng
 
 ## 2. Phân biệt Containerization và Virtualization
 
-![](Media/Pasted%20image%2020260806215002.png)
+![](../Media/Pasted%20image%2020260806215002.png)
 
 |        Tiêu chí         |                    Máy ảo (VMware / KVM)                    |                        Docker Container                         |
 | :---------------------: | :---------------------------------------------------------: | :-------------------------------------------------------------: |
@@ -18,7 +18,7 @@ Triết lý cốt lõi của Docker là **"Build once, run anywhere"** — ứng
 
 ## 3. Kiến trúc của Docker
 
-![](Media/Pasted%20image%2020260807202447.png)
+![](../Media/Pasted%20image%2020260807202447.png)
 
 - **Docker Client (`docker` CLI):** Công cụ dòng lệnh để người dùng nhập lệnh.
 
@@ -28,7 +28,7 @@ Triết lý cốt lõi của Docker là **"Build once, run anywhere"** — ứng
 
 ## 4. Các thành phần trong Docker
 
-![](Media/Pasted%20image%2020260807194850.png)
+![](../Media/Pasted%20image%2020260807194850.png)
 
 - **Dockerfile**: Là một tệp văn bản không có phần mở rộng, chứa các câu lệnh theo thứ tự để Docker tự động xây dựng nên một Docker Image
 
@@ -41,4 +41,3 @@ Triết lý cốt lõi của Docker là **"Build once, run anywhere"** — ứng
 - **Bind Mounts:** Cơ chế gắn trực tiếp một thư mục/file từ máy thật vào container. Thường dùng trong môi trường **Development** để live-reload code.
 
 - **Docker Network:** Mạng ảo giúp các container trong cùng network có thể giao tiếp với nhau qua **Tên Service / Tên Container** nhờ cơ chế DNS nội bộ.
-
